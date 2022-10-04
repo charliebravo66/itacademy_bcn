@@ -1,13 +1,32 @@
+
 nav{
     color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:x-small;
+    font-size:1em;
+    border: 1px;
+    border-color: blue;;
 }
 ul{
     color: green;
 }
 li{
     color: blue;
-    font-style: italic;
+    font-style: normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline;
+    padding: 14px 16px;
+
+}
+li a{
+    color:red;
+    
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color:brown;
+}
+p{
+    font-size: large;
 }
