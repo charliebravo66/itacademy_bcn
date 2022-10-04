@@ -19,7 +19,7 @@ li{
 }
 li a{
     color:red;
-    
+
 }
 h1{
     color: blueviolet;
@@ -29,4 +29,13 @@ h2{
 }
 p{
     font-size: large;
+}
+#imagenSomos{
+    border: 3px;
+    border-color: crimson;
+    background-color:bisque;
+    
+}
+article{
+    background-color: aquamarine;
 }
