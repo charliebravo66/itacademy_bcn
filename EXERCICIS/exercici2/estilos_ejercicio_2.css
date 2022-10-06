@@ -225,3 +225,106 @@
     border: 0px solid green;
 
 }
+
+/* Media Queries para Tabletas ******** /
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+ 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+     .flex-container_nav {
+        /*display: none;*/
+        flex-direction: column;
+        flex-flow: nowrap;
+      
+        
+      } 
+      .flex-container_redes{
+        
+        flex-direction: column;
+      }
+      .flex-container_1{
+        background-color: black;
+        width: 100%;
+        flex-flow: nowrap;
+      }
+      .flex-container_2{
+      
+        width: 100%;
+      }
+      .flex-container{
+        display: flex;
+        border: 12px solid yellow;
+        flex-direction: column;
+        
+      }
+      .flex-container_article{
+        flex-direction: column;
+        flex-flow: wrap;
+        /*justify-content: space-around;*/
+        align-items: flex-start;
+        background-color:#464660;
+        border: 12px solid yellow;
+        width:100%;
+    }
+    .flex-item_article_1{
+        flex-direction: column;
+        flex-flow: wrap;
+        width:50%;
+   
+    }
+    .flex-item_article_2{
+        flex-direction: column;
+        flex-flow: wrap;
+        width: 100%;
+
+    }
+    .flex-container_aside{
+
+        border: 12px solid yellow;
+       /*background-color: #ec703e;*/
+    }
+    .flex-item_aside_1{
+        /*background: #fccf5f;*/
+        padding: 5px;
+        margin:10px;
+        width: 90%;
+        height: 10px;
+        line-height: 10px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+        border: 0px solid green;
+    
+    }
+
+    }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
