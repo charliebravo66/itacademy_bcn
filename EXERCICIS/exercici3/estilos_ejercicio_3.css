@@ -306,10 +306,162 @@
 
     }
   
+    @media (min-width: 320px) and (max-width: 480px) {
   
-  @media (min-width: 481px) and (max-width: 767px) {
+        .flex-container_nav {
+            /*display: none;*/
+            flex-direction: row;
+            flex-flow: wrap;
+          
+            
+          } 
+          .flex-container_1{
+            background-color: black;
+            flex-flow: wrap;
+            flex-direction: column;
+            width:100%;
+          }
+          .flex-item_1{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-item_2{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-item_3{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-container_2{
+            width: 100%;
+            flex-flow: wrap;
+            flex-direction: row;
+            
+          }
+          .flex-container_article{
+            flex-direction: column;
+            flex-flow: wrap;
+            /*justify-content: space-around;*/
+            align-items: flex-start;
+            background-color:#464660;
+            border: 12px solid yellow;
+            width:100%;
+        }
+        .flex-item_article_1{
+            flex-direction: row;
+            flex-flow: wrap;
+            width:90%;
+       
+        }
+        .flex-item_article_2{
+            flex-direction: column;
+            flex-flow: wrap;
+            width: 90%;
     
-    /* CSS */
+        }
+        .flex-container_aside{
     
+            border: 12px solid yellow;
+           background-color: #ec703e;
+        }
+        .flex-item_aside_1{
+            background: #fccf5f;
+            padding: 5px;
+            margin:10px;
+            width: 90%;
+            height: 10px;
+            line-height: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 3em;
+            text-align: center;
+            border: 0px solid green;
+        
+        }
+        
+      }
+  
+  
+    @media (min-width: 481px) and (max-width: 767px) {
+    
+        .flex-container_nav {
+            /*display: none;*/
+            flex-direction: row;
+            flex-flow: wrap;
+          
+            
+          } 
+          .flex-container_1{
+            background-color: black;
+            flex-flow: wrap;
+            flex-direction: column;
+            width:100%;
+          }
+          .flex-item_1{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-item_2{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-item_3{
+            width: 90%;
+            flex-flow: wrap;
+            flex-direction: row;
+          }
+          .flex-container_2{
+            width: 100%;
+            flex-flow: wrap;
+            flex-direction: row;
+            
+          }
+          .flex-container_article{
+            flex-direction: column;
+            flex-flow: wrap;
+            /*justify-content: space-around;*/
+            align-items: flex-start;
+            background-color:#464660;
+            border: 12px solid yellow;
+            width:100%;
+        }
+        .flex-item_article_1{
+            flex-direction: row;
+            flex-flow: wrap;
+            width:90%;
+       
+        }
+        .flex-item_article_2{
+            flex-direction: column;
+            flex-flow: wrap;
+            width: 90%;
+    
+        }
+        .flex-container_aside{
+    
+            border: 12px solid yellow;
+           background-color: #ec703e;
+        }
+        .flex-item_aside_1{
+            background: #fccf5f;
+            padding: 5px;
+            margin:10px;
+            width: 90%;
+            height: 10px;
+            line-height: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 3em;
+            text-align: center;
+            border: 0px solid green;
+        
+        }
   }
+
   
