@@ -273,15 +273,15 @@
         width:100%;
     }
     .flex-item_article_1{
-        flex-direction: column;
-        flex-flow: wrap;
-        width:50%;
+        flex-direction: row;
+        flex-flow: nowrap;
+        width:40%;
    
     }
     .flex-item_article_2{
         flex-direction: column;
         flex-flow: wrap;
-        width: 100%;
+        width: 90%;
 
     }
     .flex-container_aside{
@@ -306,21 +306,6 @@
 
     }
   
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
   
   @media (min-width: 481px) and (max-width: 767px) {
     
