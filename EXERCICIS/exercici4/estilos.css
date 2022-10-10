@@ -1,0 +1,221 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+    /*background-color: aqua;*/
+    border:0px solid black;
+    display: flex;
+    flex-flow:column nowrap;
+}
+.margen-interno{
+    padding: 0 50px;
+}
+    .header{
+        /*background-color: #000;*/
+        background: url(./img/header2.jpg);
+        background-position: center;
+        background-attachment:contain;
+        background-size: cover;
+        display:flex;
+        flex-flow:column nowrap;
+        padding: 0;
+        /*align-content:center;*/
+        align-items: center;
+
+
+    }
+    .menu{
+        /*background: rgba(0,0,0,.1);*/
+        display:flex;
+        flex-flow: row nowrap;
+        height:60px;
+        align-items: center;
+    }
+    .logo{
+       /* background-color: #DD5353;*/
+        flex:1 1 auto;
+        
+    
+    }
+    .nav{
+ 
+        flex:5 1 auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .nav a{
+        color:grey;
+        padding: 0 10px;
+        letter-spacing: 2px;
+
+    }
+    .nav a:link{
+        color:grey;
+
+    }
+    .nav a:active{
+        color:grey;
+  
+    }
+    .nav a:hover{
+        color:red;
+    }
+    .social{
+
+        flex:0 1 auto;
+        display: flex;
+        padding: 0;
+     
+    }
+    .social a{
+   
+        font-size: 18px;
+        color:grey;
+        padding: 0;
+   
+    }
+    .texto-principal{
+        display: flex;
+        border: 0px solid red;
+        background: rgba(0,0,0,.1);
+        align-content:center;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        margin-top: 100px;
+        margin-bottom: 0;
+        width:80%;
+        height:145px;
+
+    }
+    h1{
+        color:crimson;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+    }
+    .section{
+        background-color: white;
+        display: flex;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .articulos{
+        background-color:#c7c7c7;
+        flex:2 1 auto;
+        display:flex;
+        flex-flow:row wrap;
+
+    }
+    .article{
+        background-color:white;
+        flex: 1 1 40%;
+        letter-spacing: 1px;
+        margin: 10px 10px 10px 10px;
+
+        
+    }
+    .article img{
+        width:98%;
+        padding: 0px 0px 5px 0px;
+    }
+    .articuloDoble {
+        display:flex;
+
+        /*flex-wrap: nowrap;
+
+
+        flex-flow:column nowrap;*/
+    }
+    h2{
+        background-color:deeppink;
+        color:white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        padding:10px 10px 0px 10px;
+        width:98%;
+        margin-top:4px;
+    }
+    h3{
+        color:yellow;
+        font-size: 0.8em;
+        padding: 10px 0;
+        margin-top: -60px;
+        margin-left: 30px;
+
+
+    }
+    .aside{
+        background-color:#c7c7c7 ;
+        flex:1 1 auto;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    .publicidad{
+        background-color:#c7c7c7;
+        text-align: center;
+    }
+    .navegacion{
+        background-color: #c7c7c7;
+        flex: 1 1 100%;
+    }
+    .footer{
+        background: white;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        /*border-left:15px solid #c7c7c7;
+        border-right:15px solid #c7c7c7;*/
+        width: 100%;
+        height:70px;
+        border: 1px solid red;
+  
+    }
+    .pie{
+        background-color: white;
+        width: 100%;
+        border-left:15px solid #c7c7c7;
+        border-right:15px solid #c7c7c7;
+        
+    }
+    /* media queries */
+
+    @media all and (max-width:800px){
+        .section{
+        flex-direction:column;
+        }
+        .menu{
+        flex-direction:column;
+        height:auto;    
+        }
+        .aside{
+        display:flex;
+        justify-content: center;
+        
+        }   
+    }
+    @media all and (max-width:600px){
+        .articulos{
+            flex-direction: column;
+            
+        }
+
+
+    }
+    @media all and (max-width:400px){
+        .aside{
+            flex-direction: column;
+            
+        }
+
+    }
