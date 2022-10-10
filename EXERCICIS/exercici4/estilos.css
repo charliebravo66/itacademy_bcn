@@ -56,6 +56,7 @@ a{
         font-size: 1.2em;
         text-align: center;
         border: 0px solid green;
+
         
     }
     .nav a{
@@ -81,7 +82,7 @@ a{
         display: flex;
         padding: 0;
         border: 0px solid red;
-        
+ 
      
     }
     .social a{
@@ -107,6 +108,7 @@ a{
         margin-bottom: 0;
         width:80%;
         height:145px;
+        animation: movimientoVertical 1s ease-in;
 
     }
     h1{
@@ -240,5 +242,23 @@ a{
             flex-direction: column;
             
         }
+        .menu{
+            flex-direction: column;
 
+        }
+
+    }
+
+    /* Animación keyframes ***/
+
+    @keyframes movimientoVertical {
+        0%{
+            opacity: 0;
+            transform: translateY(-400px);
+        }
+        100%{
+            opacity: 1;
+            transform: translate(0);
+        }
+        
     }
